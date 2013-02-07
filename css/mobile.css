@@ -1,0 +1,21 @@
+@media screen and (max-width:480px){
+
+	#wrapper {
+		width: 320px;
+	}
+	
+	nav a{
+		width: 80px;
+		font-size: .6em;
+	}
+	
+	header img{
+		display: none;
+	}
+	
+	header img:after{
+		content: <img src="img/header_mobile.jpg" />;
+		
+	}
+
+}
